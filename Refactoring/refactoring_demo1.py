@@ -1,5 +1,4 @@
 # ======================================================
-# PyCharm Refactoring Demo Script
 # Demonstration of: Rename → Extract Variable → Reformat →
 # Extract Method → Change Signature → Inline → Move → Safe Delete
 # ======================================================
