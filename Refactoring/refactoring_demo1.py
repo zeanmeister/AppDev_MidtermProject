@@ -1,7 +1,3 @@
-# ======================================================
-# Demonstration of: Rename → Extract Variable → Reformat →
-# Extract Method → Change Signature → Inline → Move → Safe Delete
-# ======================================================
 
 # 1. RENAME (Shift + F6)
 def greet_user(name):
@@ -34,7 +30,7 @@ def display_info(name):
 display_info("Miguel")
 
 
-# 7. MOVE / REFACTOR DIRECTORY (F6)
+# 5. MOVE / REFACTOR DIRECTORY (F6)
 # Move this helper function to another file (e.g., refactoring_demo2.py)
 def convert_to_uppercase(word):
     return word.upper()
@@ -42,7 +38,7 @@ def convert_to_uppercase(word):
 print(convert_to_uppercase("python"))
 
 
-# 8. SAFE DELETE (Alt + Delete)
+# 6. SAFE DELETE (Alt + Delete)
 def unused_function():
     print("This function is not used anywhere!")
 
