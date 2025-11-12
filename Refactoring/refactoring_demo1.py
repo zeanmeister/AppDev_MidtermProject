@@ -13,8 +13,7 @@ greet_user("Ken")
 
 # 2. EXTRACT VARIABLE / CONSTANT (Ctrl + Alt + V / Ctrl + Alt + C)
 def compute_total(price, quantity):
-    quantity___ = (price * quantity) + (price * quantity * 0.12)
-    total = quantity___  # 12% tax
+    total = (price * quantity) + (price * quantity * 0.12)  # 12% tax
     print(total)
 
 print("Total:", compute_total(100, 2))
