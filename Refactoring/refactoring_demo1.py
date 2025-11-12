@@ -13,11 +13,10 @@ greet_user("Ken")
 
 # 2. EXTRACT VARIABLE / CONSTANT (Ctrl + Alt + V / Ctrl + Alt + C)
 def compute_total(price, quantity):
-    total = (price * quantity) + (price * quantity * 0.12)  # 12% tax
-    return total
+    quantity___ = (price * quantity) + (price * quantity * 0.12)
+    total = quantity___  # 12% tax
+    print(total)
 
-# Try extracting "price * quantity * 0.12" as a variable "tax"
-# Or extract 0.12 as constant TAX_RATE
 print("Total:", compute_total(100, 2))
 
 
@@ -28,18 +27,7 @@ print("Sum:",calc(10,5))
 # Try reformatting this function using Code Cleanup
 
 
-# 4. EXTRACT METHOD / FUNCTION (Ctrl + Alt + M)
-def process_data(data):
-    cleaned = [x.strip().lower() for x in data]
-    cleaned.sort()
-    print("Processed data:", cleaned)
-
-# Try extracting the cleaning part into a new function "clean_data"
-data_list = [" Apple ", "banana ", " Cherry"]
-process_data(data_list)
-
-
-# 5. CHANGE SIGNATURE (Ctrl + F6)
+# 4. CHANGE SIGNATURE (Ctrl + F6)
 def display_info(name):
     print("Name:", name)
 
@@ -47,17 +35,8 @@ def display_info(name):
 display_info("Miguel")
 
 
-# 6. INLINE (Ctrl + Alt + N)
-def calc_discount(price):
-    discount = price * 0.10
-    return discount
-
-# Try inlining variable "discount"
-print("Discount:", calc_discount(1000))
-
-
 # 7. MOVE / REFACTOR DIRECTORY (F6)
-# Move this helper function to another file (e.g., utils.py)
+# Move this helper function to another file (e.g., refactoring_demo2.py)
 def convert_to_uppercase(word):
     return word.upper()
 
